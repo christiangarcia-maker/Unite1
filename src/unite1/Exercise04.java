@@ -19,12 +19,12 @@ public class Exercise04 {
 		System.out.println("¿Cual es tu primera nota?");
 		nota1 = ch.nextInt();
 		
+		System.out.println("¿Cual es tu segunda nota?");
+		nota2 = ch.nextInt();
 		
+		media = (nota1 + nota2)/2;
 		
-		System.out.println("Tu nota media es de: " media);
-		
-		
-		
+		System.out.println("Esta es tu nota media: " + media);
 		
 		ch.close();
 
