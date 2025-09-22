@@ -34,6 +34,7 @@ public class Exercise03 {
 		// Imprimimos la edad que tiene el usuario.
 		System.out.println("Esta es tu edad: " + edad);
 		
+		// Cerramos el escaner.
 		ch.close();
 	}
 
