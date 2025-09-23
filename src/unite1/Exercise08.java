@@ -24,6 +24,9 @@ public class Exercise08 {
 		
 		// Imprime la siguiente frase.
 		System.out.println("Hola " + nombre + ", tienes " + edad + " años,¡qué mayor eres!");
+		
+		// Cierre del escaner.
+		ch.close();
 	}
 
 }
