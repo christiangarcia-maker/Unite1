@@ -8,22 +8,22 @@ public class Exercise04 {
 		// Creación del escaner.
 		Scanner ch = new Scanner(System.in);
 		
-		// Creación de la variable nota1.
+		// La primera nota del usuario.
 		double nota1;
 		
-		// Creación de la variable nota2.
+		// La segunda nota del usuario.
 		double nota2;
 		
-		// Creación de la variable media.
+		// La nota media del usuario.
 		double media;
 		
-		// Pregunta sobre la primera nota.
+		// Pregunta sobre la primera nota al usuario.
 		System.out.println("¿Cual es tu primera nota?");
 		
 		// Lee la primera nota.
 		nota1 = ch.nextInt();
 		
-		// Pregunta sobre la segunda nota.
+		// Pregunta sobre la segunda nota al usuario.
 		System.out.println("¿Cual es tu segunda nota?");
 		
 		// Lee la segunda nota.

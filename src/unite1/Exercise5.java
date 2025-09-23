@@ -8,9 +8,13 @@ public class Exercise5 {
 		// Creación del escaner.
 		Scanner ch = new Scanner(System.in);
 		
-		// Creación las siguientes variables, donde se van a guardar el valor del radio, longitud y area.
+		// Radio de la circunferencia.
 		double radio;
+		
+		// Longitud de la circunferencia.
 		double longitud;
+		
+		// Area de la circunferencia.
 		double area;
 		
 		// Pregunta al usuario sobre el radio.
