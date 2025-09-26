@@ -18,13 +18,13 @@ public class Exercise11 {
 		System.out.println("¿Cuantas pesetas tienes? ");
 		pesetas = ch.nextInt();
 		
+		// Almacena en euros la siguiente formula, para pasar las pesetas a euro.
 		euros = pesetas / 166;
 		
 		System.out.println("Tienes " + euros + " euros");
 		// Cierre del escaner.
 		ch.close();
 		
-
 	}
 
 }
