@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		// Creamos nuestro scanner.
+		// Creación del scanner.
 		Scanner ch = new Scanner(System.in);
 	
-		// Declaramos la variable numero.
+		// Almacena el numero del usuario.
 		int numero;
 
 		// Pregunta al usuario un numero.
@@ -20,7 +20,7 @@ public class Exercise01 {
 		// Imprime el numero del usuario.
 		System.out.println("Tú numero es: " + numero);
 		
-		// Cerramos nuestro escaner.
+		// Cierre del escaner.
 		ch.close();
 	}
 
