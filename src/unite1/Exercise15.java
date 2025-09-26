@@ -15,7 +15,7 @@ public class Exercise15 {
 		double precio;
 		
 		// Almacena el precio con iva.
-		double precioConIva;
+		double precioConIVA;
 		
 		
 		// Pregunta al usuario por el precio.
@@ -23,10 +23,10 @@ public class Exercise15 {
 		precio = ch.nextDouble();
 		
 		// Inicializamos precioConIVa con el siguiente calculo, almacenando el precio con iva.
-		precioConIva = precio + IVA * precio/100;
+		precioConIVA = precio + IVA * precio/100;
 		
 		// Imprime el precio con iva.
-		System.out.println("El precio con IVA es de: " + precioConIva);
+		System.out.println("El precio con IVA es de: " + precioConIVA);
 		
 		// Cierre del escaner.
 		ch.close();

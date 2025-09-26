@@ -12,10 +12,10 @@ public class Exercise12 {
 		double anuales;
 		
 		// Almacena la cantidad de dinero de las peras.
-		final double DINERO_PERAS;
+		double DINERO_PERAS;
 		
 		// Almacena la cantidad de dinero de las manzanas.
-		final double DINERO_MANZANAS;
+		double DINERO_MANZANAS;
 		
 		// Almacena la cantidad de kg de peras solicitadas.
 		double kgPeras;
@@ -40,13 +40,16 @@ public class Exercise12 {
 		// Almacena el precio anual que se consigue.
 		anuales = DINERO_PERAS + DINERO_MANZANAS;
 		
-		// Imprime 
+		// Imprime el importe total de las manzanas.
 		System.out.println("Importe total peras: " + DINERO_MANZANAS + "€");
 		
+		// Imprime el importe total de las peras.
 		System.out.println("Importe total manzanas: " + DINERO_PERAS +"€" );
 		
+		// Imprime el importe total anual.
 		System.out.println("Importe anual : " + anuales + "€");
 		
+		// Cierre del escaner.
 		ch.close();
 		
 	}
