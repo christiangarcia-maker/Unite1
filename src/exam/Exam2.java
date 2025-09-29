@@ -38,7 +38,7 @@ public class Exam2 {
 		descuentoImpuestos = salarioSemanal>1000 ? 15 : 10;
 		
 		// Calcula el salario semanal con el descuento de los impuestos y lo almacena.
-		salarioSemanalDescontado = salarioSemanal - salarioSemanal * descuentoImpuestos/100;
+		salarioSemanalDescontado = salarioSemanal - salarioSemanal * descuentoImpuestos/100.0;
 		
 		// Imprime el salario con los impuestos pagados.
 		System.out.println("Este es tu salario semanal con impuestos: " + salarioSemanalDescontado + "€");
