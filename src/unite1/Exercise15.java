@@ -17,7 +17,6 @@ public class Exercise15 {
 		// Almacena el precio con iva.
 		double precioConIVA;
 		
-		
 		// Pregunta al usuario por el precio.
 		System.out.println("Introduce un precio: ");
 		precio = ch.nextDouble();

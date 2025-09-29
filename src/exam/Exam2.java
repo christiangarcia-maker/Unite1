@@ -29,7 +29,7 @@ public class Exam2 {
 		
 		// Pregunta al usuario cuanto cobra por hora.
 		System.out.println("¿Cuanto cobras por hora?");
-		dineroPorHora = ch.nextInt();
+		dineroPorHora = ch.nextDouble();
 		
 		// Inicializa salarioSemanal con los datos del usuario.
 		salarioSemanal = horasSemanales * dineroPorHora;
