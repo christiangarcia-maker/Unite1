@@ -21,7 +21,7 @@ public class Exam2 {
 		int salarioSemanal;
 		
 		// Almacena el salario semanal con los impuestos ya descontados.
-		int salarioSemanalDescontado;
+		double salarioSemanalDescontado;
 		
 		// Pregunta al usuario cuantas horas ha trabajado.
 		System.out.println("¿Cuantas horas has trabajado esta semana?");
@@ -41,7 +41,7 @@ public class Exam2 {
 		salarioSemanalDescontado = salarioSemanal - salarioSemanal * descuentoImpuestos/100;
 		
 		// Imprime el salario con los impuestos pagados.
-		System.out.println("Este es tu salario semanal con impuestos: " + salarioSemanalDescontado);
+		System.out.println("Este es tu salario semanal con impuestos: " + salarioSemanalDescontado + "€");
 		
 		// Cierre del escaner.
 		ch.close();

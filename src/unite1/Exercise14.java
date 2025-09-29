@@ -36,10 +36,10 @@ public class Exercise14 {
 		notaTercerTimestre = ch.nextInt();
 		
 		// Almacena la media de las tres notas del usuario.
-		boletinCalificaciones = (notaPrimerTimestre + notaSegundoTimestre + notaTercerTimestre)/2;
+		boletinCalificaciones = (notaPrimerTimestre + notaSegundoTimestre + notaTercerTimestre)/3;
 		
 		// Almacena la media de las tres notas del usuario.
-		expedienteAcademico = (notaPrimerTimestre + notaSegundoTimestre + notaTercerTimestre)/2.0;
+		expedienteAcademico = (notaPrimerTimestre + notaSegundoTimestre + notaTercerTimestre)/3.0;
 		
 		System.out.println("Tu nota se mostrará en el boletín como un: " + boletinCalificaciones);
 		
