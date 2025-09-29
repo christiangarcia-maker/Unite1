@@ -12,7 +12,7 @@ public class Exam2 {
 		int horasSemanales;
 			
 		// Almacena el dinero que gana por hora.
-		int dineroPorHora;
+		double dineroPorHora;
 		
 		// Almacena el porcentaje de impuestos que se le resta al salario.
 		int descuentoImpuestos;
