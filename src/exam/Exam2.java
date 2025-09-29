@@ -18,7 +18,7 @@ public class Exam2 {
 		int descuentoImpuestos;
 		
 		// Almacena el salario semanal de usuario.
-		int salarioSemanal;
+		double salarioSemanal;
 		
 		// Almacena el salario semanal con los impuestos ya descontados.
 		double salarioSemanalDescontado;
