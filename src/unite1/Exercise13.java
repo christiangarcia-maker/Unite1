@@ -33,7 +33,7 @@ public class Exercise13 {
 		irBiblioteca = ch.nextBoolean();
 		
 		// Dependiendo de lo que haya almacenado anteriormente, guardará true o false.
-		salir = (!estaLloviendo && tareasFinalizadas);
+		salir = (estaLloviendo | tareasFinalizadas);
 		
 		// Imprime true o false dependiendo de si puedes o no salir.
 		System.out.println("¿Puedes salir: " + salir);
